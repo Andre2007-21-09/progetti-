@@ -1,0 +1,53 @@
+//andrea iuliano 4G
+
+
+
+
+print("scrgli un panino")
+print("digita 1 per bigmc,2 per mc chicken,3 per crispy mc bacon")
+somma=0
+scelta=int(input(1))
+if scelta==1 ://hai scelto il bigmc
+       spesa=spesa+7.00
+	   somma=somma+1
+elif scelta==2://hai scelto il mc chicken
+       spesa=spesa+4.80
+	   somma=somma+2
+elif scelta==3://hai scelto il crispy mc bacon
+       spesa=spesa+5.80
+	   somma=somma+3
+print("scegli un secodno")
+print("digita 4 per patatine ,digita 5 per mc nuggets,digita 6 per alette di pollo)
+scelta=int(input(2))
+if scelta==4://hai scelto le patatine
+       spesa=spesa+3.00
+	   somma=somma+4
+elif scelta==5://hai scelto i nuggets
+       spesa=spesa+4.80
+	   somma=somma+5
+elif scelta==6://hai scelto le alette di pollo
+       spesa=spesa+4.60
+	   somma=somma+6
+print("scegli un dessert")
+print("digita 7 per un mc flurry,digita 8 per un cono ,digita 9 per una donats)
+scelta=int(input(3))
+if scelta==7://hai scelto il mc flurry
+       spesa=spesa+3,40
+	   somma=somma+7
+elif scelta==8://hai sceltop il cono
+       spesa=spesa+1.20
+	   somma=somma+8
+elif scelta==9://hai scelto una donats
+       spesa=spesa+2.00
+	   somma=somma+9
+totale=spesa
+print("grazie per aver scelto mc donalds, il totale è:",totale)
+if somma==12:
+print("avrai un gadget omaggio per aver scelto il menu 1,buona serata")
+else:
+print("non avrai il gadget omaggio , buona serata")
+
+
+
+
+
